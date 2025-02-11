@@ -6,7 +6,7 @@ def is_prime(n) -> bool:    #1.함수생성
     """
     if n >= 2:
         i=2
-        while i <= int(n ** 0.5) :
+        while i <= int(pow(n,0.5)) :
             if n % i == 0:
                 return False
                 break
