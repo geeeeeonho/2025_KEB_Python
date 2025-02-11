@@ -1,3 +1,10 @@
+def my_pow(n):
+    j = 1
+    while j*j <= n:
+        j += 1
+    return j-1
+
+
 def is_prime(n) -> bool:    #1.함수생성
     """
    check prime number
@@ -6,7 +13,7 @@ def is_prime(n) -> bool:    #1.함수생성
     """
     if n >= 2:
         i=2
-        while i <= int(pow(n,0.5)) :
+        while i <= int( my_pow(n) ) :
             if n % i == 0:
                 return False
                 break
