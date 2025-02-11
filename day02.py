@@ -11,8 +11,9 @@
 #입력 소수 확인하기(루트 범위로 줄이기)
 def is_prime(n) -> bool:    #1.함수생성
     """
-    소수를 판정하는 함수
-    소수면 true를, 소수가 아니면 false를 리턴함
+   check prime number
+   if prime number return True
+   if not prime number return False
     """
     if n >= 2:
         for i in range(2, int(n ** 0.5) + 1):  # n의 0.5승을 int로
