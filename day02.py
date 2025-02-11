@@ -9,18 +9,27 @@
 #     print(f"{dan}*{i}={dan*i}")
 
 #입력 소수 확인하기(루트 범위로 줄이기)
+def is_prime(n) -> bool:    #1.함수생성
+    """
+    소수를 판정하는 함수
+    소수면 true를, 소수가 아니면 false를 리턴함
+    """
+    if n >= 2:
+        for i in range(2, int(n ** 0.5) + 1):  # n의 0.5승을 int로
+            if n % i == 0:
+                return False
+                break
+    else:
+        return False
+    return True
+
 n=int(input("input number :"))
-is_prime = True     #소수 판별 변수(참, 거짓)
 
-if n>=2:
-    for i in range(2, int(n**0.5)+1):    #n의 0.5승을 int로
-        if n%i==0:
-            is_prime = False    #하나라도 나눠지면 거짓
-            break
-else:
-    is_prime = False
-
-if is_prime:
+if is_prime(n):
     print(f"{n} is prime number.")
 else:
     print(f"{n} is not prime number.")
+
+def help(is_prime):
+    print('''소수를 판정하는 함수
+    소수면 true를, 소수가 아니면 false를 리턴함''')
