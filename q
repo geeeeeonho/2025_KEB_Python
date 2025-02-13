@@ -1,0 +1,138 @@
+[33mcommit 246005eb33c21fd2ec6ff99c3f01df291f7109f2[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdrinks[m[33m, [m[1;31morigin/drinks[m[33m, [m[1;32mmain[m[33m)[m
+Author: 이건호 <ggamea100@gmail.com>
+Date:   Thu Feb 13 10:27:03 2025 +0900
+
+    v2.8 day04 kiosk
+
+[33mcommit 6c0bf51c1a689ab0f07b47630c6f55f3c9ee1442[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: 이건호 <ggamea100@gmail.com>
+Date:   Wed Feb 12 17:36:53 2025 +0900
+
+    v0.2dayhomework
+
+[33mcommit 716563d7114d7edfcd93a177cbab83c36aca9476[m
+Author: 이건호 <ggamea100@gmail.com>
+Date:   Wed Feb 12 17:11:08 2025 +0900
+
+    v0.1day3homework
+
+[33mcommit d45a51d3f641520653eeafc49309ab42fdeb5544[m[33m ([m[1;32mtemp[m[33m)[m
+Author: 이건호 <ggamea100@gmail.com>
+Date:   Wed Feb 12 10:37:13 2025 +0900
+
+     v1.6 day03 power
+
+[33mcommit d197ee5bf2ac91cfddd7f449508dec9189d0eb5d[m
+Author: 이건호 <ggamea100@gmail.com>
+Date:   Wed Feb 12 10:31:25 2025 +0900
+
+    day3 first
+
+[33mcommit dd2dbbce1f917e245f6210f7d286d24474726a8d[m
+Author: 이건호 <ggamea100@gmail.com>
+Date:   Tue Feb 11 17:08:30 2025 +0900
+
+    v1.4) use my_pow()
+
+[33mcommit caeb72813565b08e6fd4c1282f3b2227b500afca[m
+Author: 이건호 <ggamea100@gmail.com>
+Date:   Tue Feb 11 16:53:42 2025 +0900
+
+    v1.3) use pow
+
+[33mcommit 3478f493df39015052db0d8ac7ef0d4431d88ab0[m
+Author: 이건호 <ggamea100@gmail.com>
+Date:   Tue Feb 11 16:52:14 2025 +0900
+
+    v1.2) fix2
+
+[33mcommit 16ea0399c5a3dcb13778f31c0e4a62bcddd048f0[m
+Author: 이건호 <ggamea100@gmail.com>
+Date:   Tue Feb 11 16:51:05 2025 +0900
+
+    v1.1) fix2
+
+[33mcommit d27a03593f12f325c2fc1be7148ea654a019f4b1[m
+Author: 이건호 <ggamea100@gmail.com>
+Date:   Tue Feb 11 16:43:52 2025 +0900
+
+    v1.2) fix
+
+[33mcommit cbda0f243082c05eb804475755c94405c03b00c0[m
+Author: 이건호 <ggamea100@gmail.com>
+Date:   Tue Feb 11 16:41:30 2025 +0900
+
+    v1.1) fix
+
+[33mcommit 25e50a15c81c1b06197a4982fee5cdefd40819a9[m
+Author: 이건호 <ggamea100@gmail.com>
+Date:   Tue Feb 11 16:35:53 2025 +0900
+
+    v1.2) prime numbers in range with while
+
+[33mcommit 13d3546664daed588fdcd6b3195238b9e1ddeeef[m
+Author: 이건호 <ggamea100@gmail.com>
+Date:   Tue Feb 11 16:17:58 2025 +0900
+
+    v1.1) for -> while
+
+[33mcommit 65b46f8d63f2d3b43e1c2d9c71afd87e178f7d9d[m
+Author: 이건호 <ggamea100@gmail.com>
+Date:   Tue Feb 11 13:34:33 2025 +0900
+
+    v0.8 eng def
+
+[33mcommit bfb1023d2d382e48013d6bd40a73e4906ec5c1b7[m
+Author: 이건호 <ggamea100@gmail.com>
+Date:   Tue Feb 11 13:32:26 2025 +0900
+
+    v0.8 def
+
+[33mcommit 1faa10f4b22bfcfeeaa132a32157c39ce18f1c76[m
+Author: 이건호 <ggamea100@gmail.com>
+Date:   Tue Feb 11 11:39:31 2025 +0900
+
+    v0.7 prime number
+
+[33mcommit a6235eccda17312c0ed41014f20e7d7473f2ce1c[m
+Author: 이건호 <ggamea100@gmail.com>
+Date:   Tue Feb 11 10:48:10 2025 +0900
+
+    v0.6 prime number
+
+[33mcommit 3248a1870aafaaf949b8cef166d917fa81db84d1[m
+Author: 이건호 <ggamea100@gmail.com>
+Date:   Tue Feb 11 10:34:06 2025 +0900
+
+    v2.0 99dan
+
+[33mcommit ac5c380c844d54c16af61853099a010ca057a428[m
+Merge: 7bf3931 052cb97
+Author: 이건호 <ggamea100@gmail.com>
+Date:   Tue Feb 11 10:21:13 2025 +0900
+
+    v0.3
+
+[33mcommit 7bf393170517d832f26212b51924ac2270031f4d[m
+Author: 이건호 <ggamea100@gmail.com>
+Date:   Tue Feb 11 10:18:30 2025 +0900
+
+    v0.3
+
+[33mcommit 052cb9794a514d53a64d542a5c4cccd5e5cb625f[m
+Author: geeeeeonho <ggameaga100@gmail.com>
+Date:   Tue Feb 11 10:18:03 2025 +0900
+
+    v0.3
+
+[33mcommit 34333cfccec60c8a4ca63aaa5d1b83d79b7c669f[m
+Author: 이건호 <ggamea100@gmail.com>
+Date:   Tue Feb 11 10:15:47 2025 +0900
+
+    v0.2 hello
+
+[33mcommit daff722338b4f815903aed701f0a0363155d549a[m
+Author: 이건호 <ggamea100@gmail.com>
+Date:   Tue Feb 11 09:48:15 2025 +0900
+
+    v0.1 readme.md & .gitignore
