@@ -16,7 +16,7 @@ def time_decorator(func):
 def description_decorator(func):  # closure
     def wrapper(*arg):
         print(func.__name__)    #이름
-        print(func.__doc__)     #설명(""""""안에 있는 내용 출력)
+        print(func.__doc__)     #설명(""" """안에 있는 내용 출력)
         r = func(*arg)  #실제 오리지널 함수를 실행시킬 코드
         return r
 
