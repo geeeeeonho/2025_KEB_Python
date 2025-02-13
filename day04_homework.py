@@ -1,39 +1,23 @@
-# SOLID
-# Open Closed Principle : 개방 폐쇄 원칙 (확장에는 열려 있고 수정에는 닫혀있는 원칙)
-import time
+# Assignment
+# v3.8) kwargs를 사용한 데코레이터 예제.
 
-
-def time_decorator(func):
-    def wrapper(*arg):
-        s = time.time()
-        r = func(*arg)
-        e = time.time()
-        print(f'실행시간 : {e - s}초')
-        return r
+def log_decorator(func):
+    def wrapper(*args, **kwargs):
+        print(f'Function Name : {func.__name__}')
+        print(f'Function Arguments : {args}')
+        print(f'Function Keyword Arguments : {kwargs}')
+        result = func(*args, **kwargs)
+        return result
     return wrapper
 
 
-def description_decorator(func):  # closure
-    def wrapper(*arg):
-        print(func.__name__)    #이름
-        print(func.__doc__)     #설명(""" """안에 있는 내용 출력)
-        r = func(*arg)  #실제 오리지널 함수를 실행시킬 코드
-        return r
-
-    return wrapper
+@log_decorator
+def greet(name, greeting="안녕하세요", age=0):
+    return f"{greeting}, {name}(age: {age})"if age else f"{greeting}, {name}"
 
 
-
-@time_decorator
-@description_decorator
-def factorial_repetition(n) -> int:
-    """
-    make factorial by loop
-    """
-    result = 1
-    for i in range(2, n+1):
-        result = result * i
-    return result
-
-number = int(input("! 구하기:"))
-print(f"{number}! = {factorial_repetition(number)}")
+print(greet("인하"))
+print(greet("인상", "안녕"))
+print(greet("James", "Hello"))
+print(greet("Gonzales", greeting="Hola"))
+print(greet("Nakamura", greeting="Gonniziwa", age=29))
